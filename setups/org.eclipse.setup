@@ -38,9 +38,9 @@
   <!--productCatalog
       href="catalog:/self-product-catalog.setup#/"/-->
   <productCatalog
-      href="my.products.setup#/"/>
+      href="com.i2s.products.setup#/"/>
   <projectCatalog
-      href="my.projects.setup#/"/>
+      href="com.i2s.projects.setup#/"/>
   <!--projectCatalog
       href="com.github.projects.setup#/"/-->
 </setup:Index>
