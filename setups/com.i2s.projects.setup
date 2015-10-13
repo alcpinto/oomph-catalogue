@@ -54,7 +54,7 @@
       <setupTask
           xsi:type="setup:VariableTask"
           name="workspace.id"
-          value="${installation.id}-ws"/>
+          value="${installation.id}ws"/>
     </setupTask>
     <setupTask
         xsi:type="setup:CompoundTask"
