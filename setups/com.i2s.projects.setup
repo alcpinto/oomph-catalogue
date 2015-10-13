@@ -394,6 +394,10 @@
           xsi:type="setup:VariableTask"
           name="xpect.site"
           value="http://www.xpect-tests.org/updatesite/nightly"/>
+      <setupTask
+          xsi:type="setup:VariableTask"
+          name="installation.id"
+          value="eclipse-dsls-master"/>
     </stream>
     <logicalProjectContainer
         xsi:type="setup:ProjectCatalog"
