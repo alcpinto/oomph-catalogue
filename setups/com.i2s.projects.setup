@@ -34,20 +34,6 @@
           encoding="UTF-8">
         <description>Initialize JDT's package explorer to show working sets as its root objects</description>
       </setupTask>
-      <setupTask
-          xsi:type="setup:VariableTask"
-          name="workspace.container.root"
-          value="C:/i2S-devenv/workspaces"/>
-      <setupTask
-          xsi:type="setup:VariableTask"
-          name="workspace.location"
-          value="${workspace.container.root/}${workspace.id}"
-          defaultValue=""
-          label=""/>
-      <setupTask
-          xsi:type="setup:VariableTask"
-          name="workspace.id"
-          value="${installation.id}ws"/>
     </setupTask>
     <setupTask
         xsi:type="setup:CompoundTask"
@@ -387,10 +373,6 @@
           xsi:type="setup:VariableTask"
           name="xpect.site"
           value="http://www.xpect-tests.org/updatesite/nightly"/>
-      <setupTask
-          xsi:type="setup:VariableTask"
-          name="installation.id"
-          value="eclipse-dsls-master"/>
     </stream>
     <logicalProjectContainer
         xsi:type="setup:ProjectCatalog"
