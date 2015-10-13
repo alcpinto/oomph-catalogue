@@ -45,6 +45,16 @@
           xsi:type="setup:VariableTask"
           name="workspace.container.root"
           value="C:/i2S-devenv/workspaces"/>
+      <setupTask
+          xsi:type="setup:VariableTask"
+          name="workspace.location"
+          value="${workspace.container.root/}${workspace.id}"
+          defaultValue=""
+          label=""/>
+      <setupTask
+          xsi:type="setup:VariableTask"
+          name="workspace.id"
+          value="${installation.id-}ws"/>
     </setupTask>
     <setupTask
         xsi:type="setup:CompoundTask"
