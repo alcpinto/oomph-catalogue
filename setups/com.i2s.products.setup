@@ -7,13 +7,6 @@
     xmlns:setup.p2="http://www.eclipse.org/oomph/setup/p2/1.0"
     name="org.eclipse.products"
     label="Eclipse.org">
-  <annotation
-      source="http://www.eclipse.org/oomph/setup/BrandingInfo">
-    <detail
-        key="readmePath">
-      <value>readme/readme_eclipse.html</value>
-    </detail>
-  </annotation>
   <setupTask
       xsi:type="setup:InstallationTask"
       id="installation"/>
@@ -24,6 +17,11 @@
     <repository
         url="${oomph.update.url}"/>
   </setupTask>
+  <setupTask
+      xsi:type="setup:EclipseIniTask"
+      option="-Doomph.setup"
+      value="=true"
+      vm="true"/>
   <product name="epp.package.jee"
       label="Eclipse IDE for Java EE Developers">
     <annotation
