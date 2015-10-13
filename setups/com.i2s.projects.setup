@@ -355,6 +355,7 @@
       </repositoryList>
     </targlet>
   </setupTask>
+  <project href="user:/org.eclipse.projects.setup?name='user.project',label='&lt;User>',description='A container project for local user projects that are virtual members of the Eclipse.org project catalog'#/"/>
   <project name="i2s.dsls.ide"
       label="i2S DSLs IDE">
     <setupTask
