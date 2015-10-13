@@ -39,18 +39,6 @@
         encoding="UTF-8">
       <description>Initialize JDT's package explorer to show working sets as its root objects</description>
     </setupTask>
-    <setupTask
-        xsi:type="setup:VariableTask"
-        name="workspace.location"
-        value="${workspace.container.root/}${workspace.id}"/>
-    <setupTask
-        xsi:type="setup:VariableTask"
-        name="workspace.container.root"
-        value="C:/i2S-devenv/workspaces"/>
-    <setupTask
-        xsi:type="setup:VariableTask"
-        name="workspace.id"
-        value="${installation.id}-ws"/>
   </setupTask>
   <setupTask
       xsi:type="setup:CompoundTask"
