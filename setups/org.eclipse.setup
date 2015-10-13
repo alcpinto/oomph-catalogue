@@ -41,6 +41,6 @@
       href="com.i2s.products.setup#/"/>
   <projectCatalog
       href="com.i2s.projects.setup#/"/>
-  <!--projectCatalog
-      href="com.github.projects.setup#/"/-->
+  <projectCatalog
+      href="com.github.projects.setup#/"/>
 </setup:Index>
