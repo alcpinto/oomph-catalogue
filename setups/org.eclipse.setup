@@ -44,7 +44,7 @@
   <!-- <productCatalog
       href="org.eclipse.applications.setup#/"/> -->
   <projectCatalog
-      href="org.eclipse.projects.setup#/"/>
-  <!-- <projectCatalog
-      href="com.github.projects.setup#/"/> -->
+      href="com.i2s.projects.setup#/"/>
+  <projectCatalog
+      href="com.github.projects.setup#/"/>
 </setup:Index>
